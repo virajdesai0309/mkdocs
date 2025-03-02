@@ -1,0 +1,58 @@
+site_name: "Viraj Desai | Portfolio 🌟"
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.sidebar
+    - navigation.search
+    - toc.integrate
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+    - navigation.instant
+    - navigation.tracking
+    - header.autohide
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to Dark Mode
+      primary: blue
+      accent: light-blue
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to Light Mode
+      primary: blue
+      accent: light-blue
+
+nav:
+  - 🏠 Home: index.md
+  - 📚 Tutorials:
+      - 🐍 Python for Chemical Engineers: tutorials/python.md
+      - 🏭 Process Simulation: tutorials/simulation.md
+      - 📈 Optimization: tutorials/optimization.md
+  - 📖 Learning Resources:
+      - 📕 Books: learning/books.md
+      - 🎓 Courses: learning/courses.md
+      - 📝 Articles: learning/articles.md
+  - ✍️ Blog:
+      - 📰 Latest Posts: blog/index.md
+      - ⚙️ DWSim Automation: blog/dwsim.md
+      - 🚀 Parallel Processing: blog/parallel.md
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/virajdesai0309
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/viraj-desai-03sept
+
+copyright: 
+  © 2025 <a href="https://github.com/virajdesai0309" target="_blank" rel="noopener noreferrer">Viraj Desai</a>
