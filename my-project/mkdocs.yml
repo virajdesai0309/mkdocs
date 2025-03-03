@@ -2,7 +2,13 @@ site_name: "Viraj Desai | Portfolio 🌟"
 theme:
   name: material
   features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
     - navigation.expand
     - navigation.top
     - navigation.footer
@@ -31,6 +37,15 @@ theme:
       primary: blue
       accent: light-blue
 
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
 nav:
   - 🏠 Home: index.md
   - 📚 Tutorials:
@@ -46,7 +61,6 @@ nav:
       - ⚙️ DWSim Automation: blog/dwsim.md
       - 🚀 Parallel Processing: blog/parallel.md
 
-
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -55,4 +69,4 @@ extra:
       link: https://www.linkedin.com/in/viraj-desai-03sept
 
 copyright: 
-  © 2025 <a href="https://github.com/virajdesai0309" target="_blank" rel="noopener noreferrer">Viraj Desai</a>
+  Copyright © 2025 <a href="https://github.com/virajdesai0309" target="_blank" rel="noopener noreferrer">Viraj Desai</a>
