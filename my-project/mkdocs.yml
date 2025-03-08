@@ -8,6 +8,7 @@ theme:
     - navigation.footer
     - navigation.sidebar
     - navigation.search
+    - navigation.index
     - toc.integrate
     - content.tabs.link
     - content.code.copy
@@ -34,6 +35,7 @@ theme:
 nav:
   - 🏠 Home: index.md
   - 📚 Tutorials:
+      - 🐧 Linux Mint for Chemical Engineers: tutorials/linunx mint.md
       - 🐍 Python for Chemical Engineers: tutorials/python.md
       - 🏭 Process Simulation: tutorials/simulation.md
       - 📈 Optimization: tutorials/optimization.md
