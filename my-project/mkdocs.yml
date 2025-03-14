@@ -14,6 +14,7 @@ theme:
     - navigation.footer
     - navigation.sidebar
     - navigation.search
+    - navigation.index
     - toc.integrate
     - content.tabs.link
     - content.code.copy
@@ -49,6 +50,7 @@ markdown_extensions:
 nav:
   - 🏠 Home: index.md
   - 📚 Tutorials:
+      - 🐧 Linux Mint for Chemical Engineers: tutorials/linunx mint.md
       - 🐍 Python for Chemical Engineers: tutorials/python.md
       - 🐧 Linux Mint: tutorials/linux.md
       #- 🏭 Process Simulation: tutorials/simulation.md
