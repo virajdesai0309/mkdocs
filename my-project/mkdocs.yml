@@ -50,16 +50,17 @@ nav:
   - 🏠 Home: index.md
   - 📚 Tutorials:
       - 🐍 Python for Chemical Engineers: tutorials/python.md
-      - 🏭 Process Simulation: tutorials/simulation.md
-      - 📈 Optimization: tutorials/optimization.md
-  - 📖 Learning Resources:
-      - 📕 Books: learning/books.md
-      - 🎓 Courses: learning/courses.md
-      - 📝 Articles: learning/articles.md
-  - ✍️ Blog:
-      - 📰 Latest Posts: blog/index.md
-      - ⚙️ DWSim Automation: blog/dwsim.md
-      - 🚀 Parallel Processing: blog/parallel.md
+      - 🐧 Linux Mint: tutorials/linux.md
+      #- 🏭 Process Simulation: tutorials/simulation.md
+      #- 📈 Optimization: tutorials/optimization.md
+  #- 📖 Learning Resources:
+      #- 📕 Books: learning/books.md
+      #- 🎓 Courses: learning/courses.md
+      #- 📝 Articles: learning/articles.md
+  # - ✍️ Blog:
+  #     - 📰 Latest Posts: blog/index.md
+  #     - ⚙️ DWSim Automation: blog/dwsim.md
+  #     - 🚀 Parallel Processing: blog/parallel.md
 
 extra:
   social:
